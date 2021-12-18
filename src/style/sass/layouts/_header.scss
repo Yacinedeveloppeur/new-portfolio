@@ -1,0 +1,30 @@
+// style/sass/layouts/_header.scss
+
+.header {
+  background-color: $color-primary;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid $color-quaternary $size-border;
+  &__logo-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    &__logo {
+      margin-left: 20px;
+      width: $size-logo;
+    }
+  }
+  &__title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 6;
+    &__title {
+      color: $color-tertiary;
+      flex-wrap: wrap;
+      font-size: $size-h1;
+    }
+  }
+}
