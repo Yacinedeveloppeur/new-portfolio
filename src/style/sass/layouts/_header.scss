@@ -5,7 +5,7 @@
   padding: 10px 5px;
   display: flex;
   align-items: center;
-  border-bottom: solid $color-quaternary $size-border;
+  @include main-border-bottom;
   &__logo-container {
     display: flex;
     align-items: center;

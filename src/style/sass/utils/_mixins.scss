@@ -1,0 +1,3 @@
+@mixin main-border-bottom($border-size: $size-border) {
+  border-bottom: solid $color-quaternary $border-size;
+}
