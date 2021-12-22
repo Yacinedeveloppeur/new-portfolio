@@ -1,0 +1,24 @@
+// style/sass/layouts/_container.scss
+
+.main {
+  background-color: $color-bg-content;
+  padding: 4em;
+  display: flex;
+  justify-content: center;
+  &__container {
+    color: $color-black;
+    &__presentation {
+      &__title {
+        text-transform: uppercase;
+        font-weight: normal;
+      }
+      &__text {
+        background-color: $color-white;
+
+        padding: 3em;
+        border-radius: 2.4em;
+        text-align: justify;
+      }
+    }
+  }
+}

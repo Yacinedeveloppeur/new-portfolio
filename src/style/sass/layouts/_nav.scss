@@ -1,22 +1,33 @@
 // style/sass/layouts/_nav.scss
 
 .navigation {
-  &__link {
+  &__list {
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding: 0px;
     margin: 0px;
     font-size: $size-nav-link;
-    color: $color-quaternary;
     background-color: $color-secondary;
+
     @include main-border-bottom(0.19em);
     &__item {
       width: $width-nav-link;
       text-align: center;
-      &--active {
+
+      &__link {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
         color: $color-quaternary;
-        background-color: $color-tertiary;
+        &--active {
+          color: $color-secondary;
+          display: inline-block;
+          width: 100%;
+          color: $color-secondary;
+          background-color: $color-tertiary;
+          text-decoration: none;
+        }
       }
     }
   }
