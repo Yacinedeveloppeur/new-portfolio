@@ -1,11 +1,27 @@
 // src/pages/Home/index.jsx
 
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
-import "../../style/sass/main.scss";
+import ProgressBar from "../../components/ProgressBar";
 
 function Home() {
+  const [skill, setSkill] = useState([
+    "Reacts / React native",
+    "Wordpress",
+    "Inkscape",
+    "Figma",
+    "Php",
+  ]);
+
+  const [skillLvl, setSkillLvl] = useState({
+    React: "80%",
+    Worpress: "85%",
+    Inkscape: "90%",
+    Figma: "80%",
+    Php: "50%",
+  });
+
   return (
     <Fragment>
       <Header />
@@ -13,16 +29,21 @@ function Home() {
 
       <main className="main">
         <div className="main__container">
-          <div className="main__container__presentation">
-            <h2 className="main__container__presentation__title">
-              Présentation
-            </h2>
-            <p className="main__container__presentation__text">
+          <div className="main__container__article">
+            <h2 className="main__container__article__title">Présentation</h2>
+            <p className="main__container__article__text quote">
               "Webmaster, graphiste et développeur web. J'utilise principalement
-              les technologies Wordpress, inkscape et react js"
+              les technologies Wordpress, Inkscape et React/React-native"
             </p>
           </div>
-          <h2>Skills</h2>
+          <div className="main__container__article">
+            <h2 className="main__container__article__title">Compétences</h2>
+            <ProgressBar skill={skill[0]} skillLvl={skillLvl.React} />
+            <ProgressBar skill={skill[1]} skillLvl={skillLvl.Worpress} />
+            <ProgressBar skill={skill[2]} skillLvl={skillLvl.Inkscape} />
+            <ProgressBar skill={skill[3]} skillLvl={skillLvl.Figma} />
+            <ProgressBar skill={skill[4]} skillLvl={skillLvl.Php} />
+          </div>
         </div>
       </main>
     </Fragment>

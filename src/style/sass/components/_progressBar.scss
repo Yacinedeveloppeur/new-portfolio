@@ -1,0 +1,33 @@
+.skill {
+  margin-bottom: 14px;
+  &__progress-bar {
+    background-color: $color-white;
+    height: 25px;
+    padding: 3px;
+    margin-bottom: 20px;
+    &__content {
+      background-color: $color-quaternary;
+      height: 25px;
+      opacity: 0;
+      transform-origin: 0 50%;
+      animation-name: progress-bar;
+      animation-duration: $animation-progress-bar-duration;
+      animation-delay: $animation-progress-bar-delay;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@keyframes progress-bar {
+  0% {
+    transform: scaleX(0);
+  }
+  85%,
+  100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
