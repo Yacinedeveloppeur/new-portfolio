@@ -1,0 +1,15 @@
+.footer {
+  background-color: $color-primary;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: $main-border;
+  &__icon {
+    color: $color-tertiary;
+    font-size: $size-footer-icon;
+    &:hover {
+      color: $color-quaternary;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 // src/pages/Home/index.jsx
 
 import { Fragment, useState } from "react";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import ProgressBar from "../../components/ProgressBar";
@@ -26,7 +27,6 @@ function Home() {
     <Fragment>
       <Header />
       <Navbar />
-
       <main className="main">
         <div className="main__container">
           <div className="main__container__article">
@@ -46,6 +46,7 @@ function Home() {
           </div>
         </div>
       </main>
+      <Footer />
     </Fragment>
   );
 }
