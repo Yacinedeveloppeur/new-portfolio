@@ -1,0 +1,36 @@
+.main__container__article--cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 25%;
+  margin: 5px;
+  margin-bottom: 50px;
+  padding: 20px 0;
+
+  background-color: $color-white;
+  &__title {
+    text-align: center;
+  }
+  &__image {
+    width: 100%;
+  }
+  &__description {
+    text-align: justify;
+    margin-bottom: 30px;
+    padding: 8.8px;
+  }
+  &__link-container {
+    display: flex;
+    justify-content: space-around;
+    &__link {
+      font-size: 35px;
+      color: $color-primary;
+      :hover {
+        color: $color-quaternary;
+      }
+    }
+  }
+}
