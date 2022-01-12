@@ -1,5 +1,16 @@
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+header {
   font-style: italic !important;
   font-weight: 800 !important;
+  color: $color-white;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  font-weight: 400 !important;
+  color: $color-white;
+  font-family: "Montserrat", sans-serif;
 }

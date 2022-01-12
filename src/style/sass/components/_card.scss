@@ -10,8 +10,9 @@
   margin: 5px;
   margin-bottom: 50px;
   padding: 20px 0;
-
   background-color: $color-white;
+  border-radius: 12px 12px 12px 12px;
+  @include border-shadow;
   &__title {
     text-align: center;
   }

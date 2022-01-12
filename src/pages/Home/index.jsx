@@ -30,10 +30,25 @@ function Home() {
       <main className="main">
         <div className="main__container">
           <div className="main__container__article">
-            <h2 className="main__container__article__title">Présentation</h2>
-            <p className="main__container__article__text quote">
-              "Webmaster, graphiste et développeur web. J'utilise principalement
-              les technologies Wordpress, Inkscape et React/React-native"
+            <h2 className="main__container__article__title">Bienvenue</h2>
+            <p className="main__container__article__text">
+              <p>
+                Salut, je m'appelle Yacine. Je suis un véritable passionné de
+                technologie Web, mais aussi d'art (peinture et sculpture).
+                Chaque jours j'essaie d'apprendre de nouvelles compétences. Pour
+                ce faire, je me lance régulièrement des petits défis afin de me
+                surpasser, tout en conservant la notion du plaisir.
+              </p>{" "}
+              <p>
+                Le partage est également une notion indispensable à mes yeux et
+                c'est la raison pour laquelle je publie régulièrement mes
+                créations sur mon site et mon comtpe Github.
+              </p>
+              <p>
+                En tant que Webmaster, Graphiste et Développeur Web frontend, je
+                m’engage à vous apporter mes compétences et connaissances afin
+                de vous aider à développer vos applications et sites web.
+              </p>
             </p>
           </div>
           <div className="main__container__article">

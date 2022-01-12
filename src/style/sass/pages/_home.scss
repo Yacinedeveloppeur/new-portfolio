@@ -1,7 +1,7 @@
 .quote {
   background-color: $color-white;
+  @include border-shadow;
   padding: 3em;
   border-radius: 2.4em;
   text-align: justify;
-  font-style: italic;
 }
