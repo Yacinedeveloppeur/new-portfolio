@@ -2,14 +2,14 @@
   display: flex;
 
   font-style: italic !important;
-  font-weight: 800 !important;
+
   color: $color-white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "airstreamregular", "Montserrat", sans-serif;
 
   &__btn {
     border-radius: 25px;
     background-color: $color-primary;
-    font-size: 25px !important;
+    font-size: 35px;
     padding: 15px 25px;
     position: relative;
     z-index: 1;
