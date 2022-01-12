@@ -7,7 +7,10 @@ function Card({ title, tools, image, description, github, link }) {
     <div className="card">
       <h2 className="card__title">{title}</h2>
       <div className="card__tools-icons">{tools}</div>
-      <img className="card__image" src={image} alt="projet" />
+      <a href={link} target="_blank" rel="noreferrer">
+        <img className="card__image" src={image} alt="projet" />
+      </a>
+
       <p className="card__description">{description}</p>
       <div className="card__link-container">
         <a

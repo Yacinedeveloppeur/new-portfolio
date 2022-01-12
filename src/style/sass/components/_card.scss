@@ -6,6 +6,7 @@
 
 .card {
   width: 25%;
+  min-width: 350px;
   margin: 5px;
   margin-bottom: 50px;
   padding: 20px 0;
@@ -21,6 +22,7 @@
   }
   &__image {
     width: 100%;
+    height: 300px;
   }
   &__description {
     text-align: justify;

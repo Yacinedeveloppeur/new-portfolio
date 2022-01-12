@@ -1,0 +1,28 @@
+.radio-form {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 50px;
+  &__label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    &__input {
+      appearance: none;
+      border-radius: 5px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid $color-secondary;
+      transition: 0.2s all linear;
+      margin-right: 5px;
+      position: relative;
+      top: 4px;
+      &:checked {
+        border: 6px solid $color-tertiary;
+      }
+    }
+  }
+}
