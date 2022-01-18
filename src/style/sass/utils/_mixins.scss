@@ -1,3 +1,8 @@
 @mixin main-border-bottom($border-size: $size-border) {
   border-bottom: solid $color-quaternary $border-size;
 }
+
+@mixin border-shadow {
+  box-shadow: 2.6px 1px lighten($color-black, 50%),
+    -0.1em 0 0.4em lighten($color-black, 30%);
+}

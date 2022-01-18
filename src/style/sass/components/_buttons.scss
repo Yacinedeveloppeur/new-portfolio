@@ -1,28 +1,25 @@
 .default-btn__opacity {
   display: flex;
-
   font-style: italic !important;
-
   color: $color-white;
-  font-family: "airstreamregular", "Montserrat", sans-serif;
-
+  font-family: "sf_burlington_scriptregular", sans-serif;
   &__btn {
-    border-radius: 25px;
+    border-radius: 12px;
     background-color: $color-primary;
-    font-size: 35px;
+    font-size: 48px;
     padding: 15px 25px;
     position: relative;
     z-index: 1;
     cursor: pointer;
     &:hover {
-      border-radius: 25px;
+      border-radius: 12px;
       &::after {
-        border-radius: 25px;
+        border-radius: 12px;
         opacity: 1;
       }
     }
     &::after {
-      border-radius: 25px;
+      border-radius: 12px;
       content: "";
       position: absolute;
       top: 0;

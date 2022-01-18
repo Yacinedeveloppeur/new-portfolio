@@ -16,7 +16,7 @@ const skills = [
     lvl: "85%",
   },
   {
-    technology: "Inkscape",
+    technology: "Illustrator",
     lvl: "90%",
   },
   {
