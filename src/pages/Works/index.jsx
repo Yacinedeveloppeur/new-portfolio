@@ -12,7 +12,6 @@ function Works() {
 
   function handleChange(value) {
     setRadioValue(value);
-    console.log(value);
   }
 
   const filteredWorks = works.filter(function (work) {

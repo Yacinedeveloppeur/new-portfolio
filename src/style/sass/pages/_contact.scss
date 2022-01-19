@@ -2,13 +2,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   &__label {
     display: flex;
-    align-items: center;
-    margin: 50px;
-    &__input {
-      margin-left: 50px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: $size-input-label;
+    &__identityContainer {
+      flex-wrap: wrap;
+      display: flex;
+      :first-child {
+        margin-right: 10px;
+      }
     }
+    &__input {
+      margin: 20px 0;
+      border-radius: 10px;
+      min-height: 35px;
+      padding: 3px 10px;
+      border: 1px solid black;
+    }
+    textarea {
+      padding: 10px;
+    }
+  }
+  &__submit {
+    color: $color-white;
+    font-size: $size-input-label;
   }
 }

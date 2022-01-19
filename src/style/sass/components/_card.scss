@@ -7,6 +7,9 @@
 .card {
   width: 28%;
   min-width: 350px;
+  @media screen and (max-width: 360px) {
+    min-width: 150px;
+  }
   margin: 5px;
   margin-bottom: 50px;
   padding: 20px 0;
@@ -36,7 +39,8 @@
     &__link {
       font-size: 35px;
       color: $color-primary;
-      :hover {
+      transition: color 250ms;
+      &:hover {
         color: $color-quaternary;
       }
     }

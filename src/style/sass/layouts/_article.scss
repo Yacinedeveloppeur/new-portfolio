@@ -2,19 +2,30 @@
 
 .main {
   background-color: $color-white;
-  padding: 2em 4em;
+  padding: 0em 2em;
   display: flex;
   justify-content: center;
   margin: 0 10%;
+  padding-bottom: 55px;
+  @media screen and (max-width: 545px) {
+    margin: 0;
+  }
+
   &__container {
     color: $color-black;
     &__article {
       margin-bottom: 50px;
       &__title {
         font-weight: normal;
-        margin-bottom: 1.3em;
+        margin-bottom: 0.6em;
         text-align: center;
         font-size: $size-h2;
+      }
+      &__text {
+        text-align: justify;
+        :first-child {
+          text-indent: 40px;
+        }
       }
     }
   }

@@ -3,7 +3,8 @@ import websiteDesign from "../images/websiteDesign.jpg";
 import api from "../images/api.png";
 import poleEmploi from "../images/poleEmploi.jpg";
 import model from "../images/model.jpg";
-import { FaReact, FaWordpress, FaFigma } from "react-icons/fa";
+import php from "../images/php.png";
+import { FaReact, FaWordpress, FaFigma, FaPhp } from "react-icons/fa";
 
 export const works = [
   {
@@ -55,5 +56,14 @@ export const works = [
     link: "https://www.figma.com/file/YlzRTzRGOKXPkSgbLhFPdN/portfolio",
     tools: <FaFigma />,
     technology: "graphics",
+  },
+  {
+    title: "Projet Php",
+    image: php,
+    description: "Projet en cours de construction...",
+    github: "",
+    link: "",
+    tools: <FaPhp />,
+    technology: "php",
   },
 ];

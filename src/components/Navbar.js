@@ -12,7 +12,7 @@ function Navbar() {
             className={({ isActive }) =>
               isActive
                 ? "navigation__list__item__link--active"
-                : "navigation__list__item__link "
+                : "navigation__list__item__link"
             }
             exact
             to="/"
@@ -25,7 +25,7 @@ function Navbar() {
             className={({ isActive }) =>
               isActive
                 ? "navigation__list__item__link--active"
-                : "navigation__list__item__link "
+                : "navigation__list__item__link"
             }
             to="/realisations"
           >

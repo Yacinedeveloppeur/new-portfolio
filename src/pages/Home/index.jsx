@@ -1,6 +1,6 @@
 // src/pages/Home/index.jsx
 
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
@@ -46,7 +46,7 @@ function Home() {
               <p>
                 Bonjour, je m'appelle Yacine. Je suis un véritable passionné de
                 technologie Web, mais aussi d'art (sculpture et peinture).
-                Chaque jours j'essaie d'apprendre de nouvelles compétences. Pour
+                Chaque jour j'essaie d'apprendre de nouvelles compétences. Pour
                 ce faire, je me lance régulièrement des petits défis afin de me
                 surpasser, tout en conservant la notion de plaisir.
               </p>{" "}
