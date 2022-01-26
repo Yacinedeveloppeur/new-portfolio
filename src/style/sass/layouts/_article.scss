@@ -16,8 +16,9 @@
     &__article {
       margin-bottom: 50px;
       &__title {
+        margin-top: 0.4em;
         font-weight: normal;
-        margin-bottom: 0.6em;
+        margin-bottom: 0.7em;
         text-align: center;
         font-size: $size-h2;
       }
