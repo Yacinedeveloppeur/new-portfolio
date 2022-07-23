@@ -35,12 +35,12 @@ function RadioForm({ handleChange }) {
         htmlFor="graphics"
         className="radio-form__label default-btn__opacity__btn"
       >
-        Graphisme
+        Node
         <input
           type="radio"
           name="technology"
-          id="graphics"
-          value="graphics"
+          id="node"
+          value="node"
           onChange={(e) => handleChange(e.target.value)}
           className="radio-form__label__input "
         />
@@ -49,12 +49,12 @@ function RadioForm({ handleChange }) {
         htmlFor="php"
         className="radio-form__label  default-btn__opacity__btn"
       >
-        Php
+        Vue
         <input
           type="radio"
           name="technology"
-          id="php"
-          value="php"
+          id="vue"
+          value="vue"
           onChange={(e) => handleChange(e.target.value)}
           className="radio-form__label__input"
         />
