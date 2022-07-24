@@ -32,7 +32,7 @@ function RadioForm({ handleChange }) {
         />
       </label>
       <label
-        htmlFor="graphics"
+        htmlFor="node"
         className="radio-form__label default-btn__opacity__btn"
       >
         Node
@@ -46,7 +46,7 @@ function RadioForm({ handleChange }) {
         />
       </label>
       <label
-        htmlFor="php"
+        htmlFor="vue"
         className="radio-form__label  default-btn__opacity__btn"
       >
         Vue

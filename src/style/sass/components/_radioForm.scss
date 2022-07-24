@@ -12,7 +12,6 @@
     margin-right: 10px;
     margin-bottom: 7px;
     width: 150px;
-
     &__input {
       appearance: none;
       border-radius: 5px;
@@ -22,9 +21,11 @@
       transition: 0.2s all linear;
       margin-right: 5px;
       position: relative;
-
       &:checked {
         border: 6px solid $color-tertiary;
+      }
+      &:hover {
+        cursor: pointer;
       }
     }
   }
